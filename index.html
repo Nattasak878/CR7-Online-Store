@@ -1,0 +1,598 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CR7 Online Store By Nattasak878</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                
+                    <img src="assets/img/logo1.png" alt="" class="cart__img">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">New</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/w3.webp" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">CR7003S</h3>
+                        <span class="cart__price">2799 Baht</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/w5.webp" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">CR7002S</h3>
+                        <span class="cart__price">3669 Baht</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/w8.webp" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">CR7001S</h3>
+                        <span class="cart__price">1999 Baht</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">8497 Baht</span>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/h4.png" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/cr7cristianoronaldo" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/cristiano/?hl=en" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        
+                        <h1 class="home__title">CR7 EYEWEAR’S  <br> NEW COLLECTIONS BD005</h1>
+                        
+                        <p class="home__description">
+                            Made of cellulose acetate with metal details, our BD005 sunglasses has a timeless shape with a hint vintage
+                        </p>
+                        <span class="home__price">8990 Baht</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Discover
+                            </a>
+
+                            <button class="button home__button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/w1.webp" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">CR7004S</h3>
+                            <span class="featured__price">2799 Baht</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/w2.webp" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">CR7002S</h3>
+                            <span class="featured__price">1890 Baht</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/w4.webp" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">CR7001S </h3>
+                            <span class="featured__price">1290 Baht</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Our Story
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Inspirational Eyewear of this year
+                        </h1>
+    
+                        <p class="story__description">
+                            Bold design and rich details . Don’t miss the New Collection
+                        </p>
+    
+                        <a href="#" class="button button--small">Discover</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="assets/img/st1.png" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/w3.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7003S</h3>
+                        <span class="products__price">2799 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/w5.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7002S</h3>
+                        <span class="products__price">3669 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/w6.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7006T</h3>
+                        <span class="products__price">6590 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/e10.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7003K</h3>
+                        <span class="products__price">5790 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    
+                    <article class="products__card">
+                        <img src="assets/img/e3.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7007H</h3>
+                        <span class="products__price">2590 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/e11.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">CR7001O</h3>
+                        <span class="products__price">6890 Baht</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They are the best eyewear that one acquires, also they are always with the latest 
+                                    news and trends, with a very comfortable price and especially with the attention 
+                                    you receive, they are always attentive to your questions.
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/lisa.webp" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Lalisa Manobal</span>
+                                        <span class="testimonial__perfil-detail">BLACKPINK</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They are the best eyewear that one acquires, also they are always with the latest 
+                                    news and trends, with a very comfortable price and especially with the attention 
+                                    you receive, they are always attentive to your questions.
+                                </p>
+                                <h3 class="testimonial__date">November 31. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/jenn.png" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Jennie Kim</span>
+                                        <span class="testimonial__perfil-detail">BLACKPINK>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They are the best eyewear that one acquires, also they are always with the latest 
+                                    news and trends, with a very comfortable price and especially with the attention 
+                                    you receive, they are always attentive to your questions.
+                                </p>
+                                <h3 class="testimonial__date">January 17. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/jisoo.webp" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Kim Ji-soo</span>
+                                        <span class="testimonial__perfil-detail">BLACKPINK</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="assets/img/6f29c25aa4d4862b12fe06d3266a50ca.jpg" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    New Arrivals
+                </h2>
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/w7.webp" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">CR7003S</h3>
+                                    <span class="new__price">3560 Baht</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/w8.webp" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">CR7001S</h3>
+                                    <span class="new__price">1999 Baht</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/e1.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">CR7003W</h3>
+                                    <span class="new__price">2000 Baht</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/e2.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">CR7002X</h3>
+                                    <span class="new__price">8950 Baht</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Join the <br> CR7US family</h2>
+                        <p class="newsletter__description">
+                            Receive a 20% off storewide coupon, and special deals year round, when you subscribe for free to CR7US.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            JOIN
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>Thailand</li>
+                        <li>Bangkok 10150</li>
+                        <li>098-250-8896</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Customer service</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Need Help?</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Shipping & Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Returns</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Legal area</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Cookie Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Terms & Conditions</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/cr7cristianoronaldo" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://twitter.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/cristiano/?hl=en" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; ITALIA INDEPENDENT S.P.A. - BANGBON 4 SOI 7, 10150 - BANKGKOK, THAILAND - T.0982508896. - 
+                Site managed by Nattasak878 Company reference by https://www.cr7-eyewear.com/en/</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
